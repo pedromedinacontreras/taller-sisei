@@ -1,0 +1,187 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: black;
+    font-family: 'Mali', cursive;
+}
+
+div div h1{
+    font-family: Arial black;
+    font-size: 3em;
+    color: white;
+    margin: 0px;
+}
+div h2{
+    padding-top: 70px;
+    font-family: Arial black;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+div p {
+    padding-top: 20px;
+    font-family: Aria;
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+div div h6{
+
+    font-size: 1.5em;
+    color: white;
+    margin: 0px;
+}
+
+div table tr td{
+    color:  white;
+    text-align: center;
+}
+div table{
+    width: 100%;
+    padding-top: 50px;
+}
+footer{
+    height: 150px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a img {
+    width: 120px;
+}
+#box1{
+    background-image: url(http://papers.co/wallpaper/papers.co-me91-himalaya-sunset-dark-mountain-art-36-3840x2400-4k-wallpaper.jpg);
+    position: relative;
+}
+#box1 a{
+  background-color: #329cc3;
+  border: 1px solid #1da1f2;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+#errores-http{
+    background: black;
+}
+#quienes-somos{
+    background-image: url(https://wpblink.com/sites/default/files/wallpaper/earth/68373/black-mountain-wallpapers-hd-68373-4162153.png);
+}
+#quienes-somos h1{
+    padding: 10px;
+    color: white;
+    font-family: arial black;
+    text-align: center;
+}
+#middleBox{
+    background-image: url(https://wpblink.com/sites/default/files/wallpaper/earth/68373/black-mountain-wallpapers-hd-68373-8267869.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.scrollmenu a {
+    width: 25%;
+    padding: 0 15px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    height: 100px;
+    vertical-align: middle;
+    display: table-cell ;
+}
+.scrollmenu a:hover {
+    opacity: 0.5;
+}
+
+#title{
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20%;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+.square{
+
+    border-radius: 5px;
+    margin: 0 auto;
+    background: white;
+    height: 100px;
+    width: 50%;
+
+}
+.square h1{
+    color: black;
+}
+.middle{
+  display: flex;
+  height: 500px;
+  width: 100%;
+  background: white;
+}
+.middle > div {
+  width: 33.33%;
+  margin: 0;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.card{
+  padding-top: 100px;
+}
+.card i{
+  font-size: 5em;
+}
+#redes-sociales{
+  height: 400px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+.redes-item{
+  display: inline-block;
+  width: 240px;
+  height: 100%;
+  box-shadow: 2px 2px 24px #888888;
+  cursor: pointer;
+}
+
+.redes-item img{
+  width: 100%;
+}
+
+.redes-item div{
+  text-align: center;
+  margin-top: 48px;
+  font-size: 40px;
+}
